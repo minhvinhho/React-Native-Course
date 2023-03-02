@@ -5,7 +5,7 @@ import NumberContainer from '../components/game/NumberContainer';
 import PrimaryButton from '../components/ui/PrimaryButton';
 import Title from '../components/ui/Title';
 import Card from '../components/ui/Card';
-import InstructionText from '../components/ui/instructionText';
+import InstructionText from '../components/ui/InstructionText';
 import {Ionicons} from '@expo/vector-icons'
 
 function generateRandomBetween(min, max, exclude) {

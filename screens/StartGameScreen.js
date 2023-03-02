@@ -5,7 +5,7 @@ import PrimaryButton from '../components/ui/PrimaryButton';
 import Colors from '../constants/colors';
 import Title from '../components/ui/Title';
 import Card from '../components/ui/Card';
-import InstructionText from '../components/ui/instructionText';
+import InstructionText from '../components/ui/InstructionText';
 
 function StartGameScreen({onPickNumber}) {
   const [enteredNumber, setEnteredNumber] = useState('');
